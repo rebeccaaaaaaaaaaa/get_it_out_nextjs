@@ -1,0 +1,42 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgBlue{
+
+  background-color: #38B6FF;
+}
+
+.btnStart{
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  padding: 15px 0;
+  color: #39a4e2;
+  box-shadow: 0px 3px 8px #00000016;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+
+.btnStart:hover{
+  background: rgb(44 156 221);
+  color: #fff;
+}
+
+.copy{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.copy strong{
+
+  margin-left: 5px;
+}
